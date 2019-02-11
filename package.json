@@ -1,0 +1,21 @@
+{
+  "name": "adoptarserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Diego Herrera",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.7",
+    "node-fetch": "^2.3.0",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0"
+  },
+  "proxy": "http://localhost:300/"
+}
