@@ -8,6 +8,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import SearchForm from './SearchForm'
 import Search from './Search'
+import Login from './Login'
 
 /*Components*/
 import Home from './Home' 
@@ -22,6 +23,7 @@ class App extends Component {
         <Route exact path="/" component={Home}/>
         <Route exact path="/SearchForm" component={SearchForm}/>
         <Route exact path="/search" component={Search}/>
+        <Route exact path="/login" component={Login}/>
       </Switch>
       </Router>
     );
