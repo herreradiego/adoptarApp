@@ -1,4 +1,7 @@
 import React, {Component, Fragment} from 'react';
+
+
+/*
 import { withStyles } from '@material-ui/core/styles';
 
 import Typography from '@material-ui/core/Typography';
@@ -44,7 +47,7 @@ const styles = {
         bottom: '0',
         left: '0',
         right: '0',
-        backgroundImage:`url(${imageHeader})`,
+        /*backgroundImage:`url(${imageHeader})`,*/
         backgroundSize: 'cover',
         display: 'grid',
         "gridTemplateRows": "20% 20% 60%"
@@ -104,6 +107,18 @@ class Home extends Component{
 
 
     render(){
+        return(
+            <div>
+                HOME
+            </div>
+        )
+    }
+/*
+
+
+
+
+    render(){
         const {classes} = this.props;
         return(
             
@@ -130,10 +145,10 @@ class Home extends Component{
                 
            
         )
-    }
+    }*/
 
 
 }
 
 
-export default withStyles(styles)(Home)
+export default /*withStyles(styles)*/Home
